@@ -1,0 +1,32 @@
+# --- 凭据与密钥：绝不入库 ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+
+# --- 依赖 ---
+node_modules/
+.npm/
+vendor/
+
+# --- 构建产物 ---
+dist/
+build/
+out/
+*.log
+logs/
+
+# --- 编辑器 / 系统 ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- 运行期数据 ---
+data/
+*.local.json
